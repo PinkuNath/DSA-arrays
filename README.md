@@ -26,7 +26,7 @@
 - Search:
   1. Linear Search: **O(n)**
   2. Binary Search: **O(log n)** *(only for sorted array)*
--Insertion/Deletion:
+- Insertion/Deletion:
   1. Last Position: **O(1)**
      *(no shifting requirs)*
   2.  Any given position except last: **O(n)**
