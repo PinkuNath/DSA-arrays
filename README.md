@@ -12,7 +12,7 @@
 - Index-based access
 - Zero-based indexing
 ## Internal Working
-- Elements are stored in continuous memory
+- Elements are stored in contiguous memory
 - Address calculated using index
 - Direct access without traversal
 ## Operations
@@ -22,15 +22,14 @@
 - Searching
 - Updating
 ## Time Complexity (General)
-- Access: **O(1)**
+- Traversal: **O(n)**
+- Access/Updating: **O(1)**
 - Search:
   1. Linear Search: **O(n)**
   2. Binary Search: **O(log n)** *(only for sorted array)*
 - Insertion/Deletion:
-  1. Last Position: **O(1)**
-     *(no shifting requirs)*
-  2.  Any given position except last: **O(n)**
-     *(requires shifting)*
+  1. Last Position: **O(1)** *(no shifting required)*
+  2. Any given position except last: **O(n)** *(requires shifting)*
 ## Advantages
 - Fast access
 - Simple structure
@@ -48,3 +47,10 @@
 - Buffers
 - Matrices
 - Base for other data structures
+## Learning Outcome
+- Clear understanding of array behaviour
+- Ability to analyze and apply array-based solutions
+## Future Scope
+- Optimization techniques
+- Comparison with linked lists
+- Advanced array problems
